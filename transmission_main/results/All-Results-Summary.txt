@@ -1,0 +1,94 @@
+# A tibble: 90 x 13
+# Groups:   indicator, mode, type, inf_asymptomatic, susceptibility_num, susceptibility, share_subclinical_num, share_subclinical, pr_out_of_school [90]
+   indicator         mode       type        inf_asymptomatic susceptibility_… susceptibility            share_subclinica… share_subclinical  pr_out_of_school scenario         conf.low conf.high  value
+   <fct>             <chr>      <fct>                  <dbl>            <dbl> <chr>                                 <dbl> <chr>                         <dbl> <fct>               <dbl>     <dbl>  <dbl>
+ 1 Proportion of sp… Same-day … No cohorti…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\… NaN        NaN      0     
+ 2 Proportion of sp… Same-day … Random coh…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0356     0.0449 0.0402
+ 3 Proportion of sp… Same-day … Gender-spl…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0316     0.0414 0.0365
+ 4 Proportion of sp… Same-day … Network ch…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0214     0.0303 0.0259
+ 5 Proportion of sp… Same-day … Optimized …              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.00842    0.0158 0.0121
+ 6 Proportion of sp… Same-day … No cohorti…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\… NaN        NaN      0     
+ 7 Proportion of sp… Same-day … Random coh…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0970     0.117  0.107 
+ 8 Proportion of sp… Same-day … Gender-spl…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0812     0.0973 0.0892
+ 9 Proportion of sp… Same-day … Network ch…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0575     0.0740 0.0658
+10 Proportion of sp… Same-day … Optimized …              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0301     0.0429 0.0365
+11 Proportion of sp… Same-day … No cohorti…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\… NaN        NaN      0     
+12 Proportion of sp… Same-day … Random coh…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.150      0.176  0.163 
+13 Proportion of sp… Same-day … Gender-spl…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.129      0.150  0.140 
+14 Proportion of sp… Same-day … Network ch…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.103      0.127  0.115 
+15 Proportion of sp… Same-day … Optimized …              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0548     0.0744 0.0646
+16 Proportion of sp… Weekly ro… No cohorti…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\… NaN        NaN      0     
+17 Proportion of sp… Weekly ro… Random coh…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0348     0.0447 0.0398
+18 Proportion of sp… Weekly ro… Gender-spl…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0266     0.0379 0.0322
+19 Proportion of sp… Weekly ro… Network ch…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0171     0.0264 0.0218
+20 Proportion of sp… Weekly ro… Optimized …              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.00996    0.0180 0.014 
+21 Proportion of sp… Weekly ro… No cohorti…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\… NaN        NaN      0     
+22 Proportion of sp… Weekly ro… Random coh…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0894     0.107  0.0981
+23 Proportion of sp… Weekly ro… Gender-spl…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0715     0.0875 0.0795
+24 Proportion of sp… Weekly ro… Network ch…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0514     0.0688 0.0601
+25 Proportion of sp… Weekly ro… Optimized …              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0258     0.0369 0.0314
+26 Proportion of sp… Weekly ro… No cohorti…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\… NaN        NaN      0     
+27 Proportion of sp… Weekly ro… Random coh…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.120      0.141  0.130 
+28 Proportion of sp… Weekly ro… Gender-spl…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.102      0.121  0.112 
+29 Proportion of sp… Weekly ro… Network ch…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0743     0.0975 0.0859
+30 Proportion of sp… Weekly ro… Optimized …              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0478     0.0647 0.0562
+31 Excess proportio… Same-day … No cohorti…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.455      0.473  0.464 
+32 Excess proportio… Same-day … Random coh…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0421     0.0519 0.0470
+33 Excess proportio… Same-day … Gender-spl…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0384     0.0496 0.0440
+34 Excess proportio… Same-day … Network ch…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0317     0.0426 0.0372
+35 Excess proportio… Same-day … Optimized …              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0266     0.0362 0.0314
+36 Excess proportio… Same-day … No cohorti…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.445      0.466  0.456 
+37 Excess proportio… Same-day … Random coh…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.104      0.116  0.110 
+38 Excess proportio… Same-day … Gender-spl…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.100      0.113  0.107 
+39 Excess proportio… Same-day … Network ch…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0905     0.103  0.0967
+40 Excess proportio… Same-day … Optimized …              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0801     0.0926 0.0863
+41 Excess proportio… Same-day … No cohorti…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.370      0.396  0.383 
+42 Excess proportio… Same-day … Random coh…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.120      0.138  0.129 
+43 Excess proportio… Same-day … Gender-spl…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.112      0.129  0.121 
+44 Excess proportio… Same-day … Network ch…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.106      0.122  0.114 
+45 Excess proportio… Same-day … Optimized …              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0935     0.107  0.100 
+46 Excess proportio… Weekly ro… No cohorti…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.432      0.449  0.440 
+47 Excess proportio… Weekly ro… Random coh…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0375     0.0454 0.0414
+48 Excess proportio… Weekly ro… Gender-spl…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0317     0.0400 0.0359
+49 Excess proportio… Weekly ro… Network ch…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0250     0.0346 0.0298
+50 Excess proportio… Weekly ro… Optimized …              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0184     0.0269 0.0226
+51 Excess proportio… Weekly ro… No cohorti…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.369      0.392  0.381 
+52 Excess proportio… Weekly ro… Random coh…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0695     0.0831 0.0763
+53 Excess proportio… Weekly ro… Gender-spl…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0648     0.0782 0.0715
+54 Excess proportio… Weekly ro… Network ch…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0574     0.0718 0.0646
+55 Excess proportio… Weekly ro… Optimized …              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0523     0.0639 0.0581
+56 Excess proportio… Weekly ro… No cohorti…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.252      0.273  0.263 
+57 Excess proportio… Weekly ro… Random coh…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0676     0.0810 0.0743
+58 Excess proportio… Weekly ro… Gender-spl…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0660     0.0770 0.0715
+59 Excess proportio… Weekly ro… Network ch…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0629     0.0758 0.0693
+60 Excess proportio… Weekly ro… Optimized …              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0583     0.0692 0.0638
+61 Proportion infec… Same-day … No cohorti…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0427     0.0462 0.0444
+62 Proportion infec… Same-day … Random coh…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0212     0.0231 0.0221
+63 Proportion infec… Same-day … Gender-spl…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0214     0.0235 0.0224
+64 Proportion infec… Same-day … Network ch…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0213     0.0232 0.0223
+65 Proportion infec… Same-day … Optimized …              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0216     0.0237 0.0227
+66 Proportion infec… Same-day … No cohorti…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.117      0.126  0.122 
+67 Proportion infec… Same-day … Random coh…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0568     0.0623 0.0595
+68 Proportion infec… Same-day … Gender-spl…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0558     0.0608 0.0583
+69 Proportion infec… Same-day … Network ch…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0543     0.0590 0.0566
+70 Proportion infec… Same-day … Optimized …              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0528     0.0568 0.0548
+71 Proportion infec… Same-day … No cohorti…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.192      0.205  0.198 
+72 Proportion infec… Same-day … Random coh…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0938     0.105  0.0993
+73 Proportion infec… Same-day … Gender-spl…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0932     0.102  0.0977
+74 Proportion infec… Same-day … Network ch…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0891     0.0981 0.0936
+75 Proportion infec… Same-day … Optimized …              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0830     0.0911 0.0871
+76 Proportion infec… Weekly ro… No cohorti…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0223     0.0250 0.0237
+77 Proportion infec… Weekly ro… Random coh…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0124     0.0139 0.0131
+78 Proportion infec… Weekly ro… Gender-spl…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0121     0.0137 0.0129
+79 Proportion infec… Weekly ro… Network ch…              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0124     0.0141 0.0133
+80 Proportion infec… Weekly ro… Optimized …              0.5             0.05 "Baseline probability of…               0.2 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0123     0.0141 0.0132
+81 Proportion infec… Weekly ro… No cohorti…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0566     0.0623 0.0595
+82 Proportion infec… Weekly ro… Random coh…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0316     0.0352 0.0334
+83 Proportion infec… Weekly ro… Gender-spl…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0312     0.0353 0.0333
+84 Proportion infec… Weekly ro… Network ch…              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0294     0.0329 0.0311
+85 Proportion infec… Weekly ro… Optimized …              0.5             0.15 "Baseline probability of…               0.5 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0307     0.0333 0.0320
+86 Proportion infec… Weekly ro… No cohorti…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0848     0.0950 0.0899
+87 Proportion infec… Weekly ro… Random coh…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0457     0.0519 0.0488
+88 Proportion infec… Weekly ro… Gender-spl…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0465     0.0520 0.0493
+89 Proportion infec… Weekly ro… Network ch…              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0439     0.0504 0.0472
+90 Proportion infec… Weekly ro… Optimized …              0.5             0.25 "Baseline probability of…               0.8 "Prop.\nsubclinic…              0.2 "Transmission\…   0.0450     0.0505 0.0478

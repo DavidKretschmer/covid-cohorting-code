@@ -1,0 +1,10 @@
+# A tibble: 6 x 13
+# Groups:   mode, symptomatic, susceptibility_num, susceptibility [6]
+  mode               symptomatic susceptibility_num susceptibility                                  pr_out_of_school mean_sec mean_inf num_inf quant80 num_inf_80 share_80s num_inf_80_str share_80s_str
+  <chr>              <chr>                    <dbl> <chr>                                                      <dbl>    <dbl>    <dbl>   <int>   <dbl>      <int>     <dbl>          <int>         <dbl>
+1 Same-day instruct… clinical                  0.05 "Baseline probability of\ninfection upon conta…              0.2   0.0470    0.982   89619       2      71558     0.798          53506         0.597
+2 Same-day instruct… clinical                  0.15 "Baseline probability of\ninfection upon conta…              0.2   0.110     2.28   207802       4     165891     0.798         150463         0.724
+3 Same-day instruct… clinical                  0.25 "Baseline probability of\ninfection upon conta…              0.2   0.141     2.92   266808       5     223155     0.836         211210         0.792
+4 Same-day instruct… subclinical               0.05 "Baseline probability of\ninfection upon conta…              0.2   0.0427    0.936   85479       2      66916     0.783          48852         0.572
+5 Same-day instruct… subclinical               0.15 "Baseline probability of\ninfection upon conta…              0.2   0.0995    2.18   199033       4     155517     0.781         139529         0.701
+6 Same-day instruct… subclinical               0.25 "Baseline probability of\ninfection upon conta…              0.2   0.129     2.82   257133       5     211175     0.821         198065         0.770
